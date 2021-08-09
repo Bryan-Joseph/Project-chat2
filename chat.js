@@ -34,7 +34,7 @@ function getData(){
             room_name = childKey;
             console.log(room_name);
 
-            html = "<h1 id='"+room_name+"' class='room-name' onclick='redirect(this.id)'>"+room_name+"</h1> <hr>";
+            html = "<h2 id='"+room_name+"' class='room-name' onclick='redirect(this.id)'>"+room_name+"</h2> <hr>";
             document.getElementById("output").innerHTML += html;
         });
     });
